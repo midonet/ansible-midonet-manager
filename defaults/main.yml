@@ -1,0 +1,5 @@
+---
+
+midonet_api_hostname: 'localhost'
+login_hostname: 'localhost'
+midonet_version: '5.2'

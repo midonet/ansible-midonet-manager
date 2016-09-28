@@ -1,0 +1,7 @@
+---
+
+- name: Install Midonet Manager
+  apt:
+    name: 'midonet-manager'
+    state: present
+    update_cache: yes

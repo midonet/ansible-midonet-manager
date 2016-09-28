@@ -1,0 +1,15 @@
+{
+  "api_host": "http://{{ midonet_api_hostname }}:8181",
+  "login_host": "http://{{ login_hostname }}:8181",
+  "trace_api_host": "http://{{ midonet_api_hostname }}:8181",
+  "traces_ws_url": "wss://{{ midonet_api_hostname }}:8460/trace",
+  "api_namespace": "midonet-api",
+  "api_version": "{{ midonet_version }}",
+  "api_token": false,
+  "agent_config_api_namespace": "conf",
+  "analytics_ws_api_url": "wss://{{ midonet_api_hostname }}:8080/analytics",
+  "poll_enabled": true,
+  "login_animation_enabled": true,
+  "subscriptions_ws_api_url": "wss://{{ midonet_api_hostname }}:8007/subscription",
+  "fabric_ws_api_url": "wss://{{ midonet_api_hostname }}:8009/fabric"
+}

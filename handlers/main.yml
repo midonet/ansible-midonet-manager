@@ -1,0 +1,6 @@
+---
+
+- name: Restart Midonet Manager
+  service:
+    name: midonet-manager
+    state: restarted

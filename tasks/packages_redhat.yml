@@ -1,0 +1,6 @@
+---
+
+- name: Install Midonet Manager
+  yum:
+    name: 'midonet-manager'
+    state: present

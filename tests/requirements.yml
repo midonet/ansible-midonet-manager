@@ -1,0 +1,4 @@
+---
+
+- name: midonet-repo
+  src: abelboldu.midonet-repos

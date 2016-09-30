@@ -1,0 +1,4 @@
+---
+
+- name: Configure midonet manager
+  template: src=client.js.j2 dest=/var/www/html/midonet-manager/config/client.js

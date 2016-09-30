@@ -9,3 +9,4 @@
       mem_password: '3adfF3cd'
 
     - role: midonet-manager
+      ssl_enabled: True

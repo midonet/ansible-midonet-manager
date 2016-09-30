@@ -1,0 +1,7 @@
+---
+
+- name: Set web server host and protocol
+  set_fact:
+    web_server_host: 'ws'
+    web_protocol: 'http'
+  when: "'{{ ssl_enabled }}' == False"

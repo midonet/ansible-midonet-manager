@@ -3,6 +3,6 @@
 midonet_api_hostname: 'localhost'
 login_hostname: 'localhost'
 midonet_version: '5.2'
-ssl_enabled: True
-web_server_host: 'wss'
-web_protocol: 'https'
+ssl_enabled: False
+web_server_host: 'ws'
+web_protocol: 'http'

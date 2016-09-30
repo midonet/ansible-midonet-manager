@@ -6,7 +6,7 @@
     - role: ansible-midonet-repo
       midonet_version: 'midonet-5.2'
       mem_username: 'calsoft'
-      mem_password: '3adfF3cd'
+      mem_password: 'dummypwd'
 
     - role: midonet-manager
-      ssl_enabled: True
+      ssl_enabled: False

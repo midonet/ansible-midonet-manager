@@ -1,4 +1,3 @@
 ---
 
-- name: midonet-repo
-  src: abelboldu.midonet-repos
+- src: https://github.com/midonet/ansible-midonet-repo

@@ -3,7 +3,9 @@
 - hosts: all
   become: True
   roles:
-    - role: midonet-repo
-      midonet_version: 5.2
+    - role: ansible-midonet-repo
+      midonet_version: 'midonet-5.2'
+      mem_username: 'calsoft'
+      mem_password: '3adfF3cd'
 
     - role: midonet-manager

@@ -1,6 +1,13 @@
 ---
 
-- name: Restart Midonet Manager
+- name: Restart Apache
   service:
-    name: midonet-manager
+    name: apache2
     state: restarted
+  when: ansible_os_family == 'Debian'
+
+- name: Restart Apache
+  service:
+    name: httpd
+    state: restarted
+  when: ansible_os_family == 'RedHat'

@@ -1,0 +1,1 @@
+# ansible-midonet-manager

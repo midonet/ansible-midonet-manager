@@ -3,10 +3,10 @@
 - hosts: all
   become: True
   roles:
-    - role: ansible-midonet-repo
+    - role: midonet-repo
       midonet_version: '5.2'
       mem_username: 'calsoft'
       mem_password: 'dummypwd'
 
-    - role: midonet-manager
+    - role: ansible-midonet-manager
       ssl_enabled: False
